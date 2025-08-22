@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+    <div style="width: 800px; border: 1px solid black;">
+        <center><h3>Registration Form</h3></center>
+        <form action="submit.html">
+    <table cellpadding="10px">
+        <tr>
+            <td> <label for="fname">First Name:</label></td>
+            <td>
+                <input type="text" name="FirstName" placeholder="Enter First name" id="fname" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td>
+                 <input type="text" name="LastName" placeholder="Enter Last name" id="lname" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="add">Email:</label></td>
+            <td>
+                <input type="email" name="address" placeholder="Enter Email Address" id="add" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password:</label></td>
+            <td>
+                <input type="password" name="password" id="pass" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pass">Gender:</label></td>
+            <td>
+                <input type="radio" name="gender" id="Male" required><label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female" required><label for="Female">Female</label>
+                <input type="radio" name="gender" id="Other" required><label for="Other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+                <input type="number" name="age" id="age" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pref">Preferences:</label></td>
+            <td>
+               <label for="check">Acrylic Painting</label><input type="checkbox" name="chekbox" id="check" >
+               <label for="oil">Oil Painting</label><input type="checkbox" name="chekbox" id="oil">
+               <label for="water">Acrylic Painting</label><input type="checkbox" name="chekbox" id="water">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="ocup">Occupation:</label></td>
+            <td>
+                <select name="" id=""required >
+                    <option value="sec" disabled  selected>--Select--</option>
+                    <option value="student">Student</option>
+                    <option value="prof">Prof</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="bio">Bio:</label></td>
+            <td>
+                <textarea name="" id=""></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+        </tr>
+    </table>
+    </form>
+
+    </div>
+    </center>
+</body>
+</html>

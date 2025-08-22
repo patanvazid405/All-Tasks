@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC</title>
+</head>
+<body >
+    <center>
+    <img src="WhatsApp Image 2025-08-21 at 15.27.08_460b1da1.jpg" alt="img" width="850">
+   
+    <fieldset>
+        <legend style="font-size:21px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(108, 108, 245); border-radius:5px; color: white;">Applicant Details</legend>
+
+        <table border="0" cellpadding="5" cellspacing="0" width="80%" style="font-size: 19px;">
+            <form action="submit.html">
+            <tr>
+                <td><label for="name">Name <sup style="color: red;">*</sup></label></td>
+                <td> <input type="text" name="name" id="name" size="35" required> </td>
+                <td><label for="fname">Father's Name <sup style="color: red;">*</sup></label></td>
+                <td><input type="text" name="fname" id="fname" size="30"  required></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date of birth <sup style="color: red;" >*</sup></td>
+                <td><input type="date" name="date" id="date" size="35"  required></td>
+                <td><label for="gender">Gender<sup style="color: red;">*</sup></label></td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male" size="30"  required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female" value="female"  required>
+                    <label for="female">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age As on:</td>
+                <td><input type="text" name="age" id="age" size="3"><label for="year">year</label><input type="text" name="month" id="month" size="3"><label for="year">month</label> <input type="text" name="day" id="day" size="3"><label for="year">day</label></td>
+                <td><label for="adhar">Aadhar No<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" name="adhar" id="adhar" size="30"  required></td>
+            </tr>
+            <tr>
+                <td><label for="Whtno">WhatsApp No<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" name="Whtno" id="Whtno" size="35"  required></td>
+                <td><label for="email">E-mail<sup style="color: red;">*</sup></label></td>
+                <td><input type="email" name="email" id="email" size="30"  required></td>
+            </tr>
+            <tr>
+                <td><label for="file">Photo<sup style="color: red;">*</sup></label></td>
+                <td><input type="file" name="photo" id="file" size="30"  required></td>
+                
+            </tr>
+            </form>
+        </table>   
+    </fieldset>
+    </center>
+    <br>
+
+    <center>
+    <fieldset>
+        <legend style="font-size:21px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(108, 108, 245); border-radius:5px; color: white;">Resident Address Details</legend>
+     <table border="0" cellpadding="5" cellspacing="0" width="80%" style="font-size: 19px;">
+    <form action="submit.html">
+            <tr>
+                <td><label for="address">Applicant's Address<sup style="color: red;">*</sup></label></td>
+                <td> <textarea name="address" id="address"  required></textarea> </td>
+                <td><label for="dis">District<sup style="color: red;">*</sup></label></td>
+                <td> 
+                <select name="district" id="dis"  required>
+                    <option value="sel">--Select--</option>
+                    <option value="hyd">Hyderabad</option>
+                    <option value="sec">Secunderabad</option>
+                    <option value="kphb">KPHB</option>
+                </select>
+                 </td>
+            </tr>
+            <tr>
+                <td><label for="mandal">Mandal <sup style="color: red;">*</sup></td>
+                <td>
+                <select name="mandal" id="mandal"  required>
+                    <option value="sel">--Select--</option>
+                    <option value="hyd">Hyderabad</option>
+                    <option value="sec">Secunderabad</option>
+                    <option value="kphb">KPHB</option>
+                </select>
+                </td>
+                <td><label for="vil">Village<sup style="color: red;">*</sup></label></td>
+                <td>
+                  <select name="vil" id="vil"  required>
+                    <option value="sel">--Select--</option>
+                    <option value="hyd">Charminar</option>
+                    <option value="sec">HiTec City</option>
+                    <option value="kphb">Miyapur</option>
+                    <option value="kphb">KPHB Colony</option>
+                </select>  
+                </td>
+            </tr>
+        
+            <tr>
+                <td><label for="pin">Pincode<sup style="color: red;">*</sup></label></td>
+                <td><input type="text" name="pincode" id="pin" size="30"></td>
+                
+            </tr>
+        </table>
+        </form>
+        </fieldset>
+        </center>
+        <br>
+      <center>
+    <fieldset>
+        <legend style="font-size:21px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(108, 108, 245); border-radius:5px; color: white;">Pass Type Details</legend>
+     <table border="0" cellpadding="5" cellspacing="0" width="80%" style="font-size: 19px;">
+    <form action="submit.html">
+            <tr>
+                <td><label for="dis">City<sup style="color: red;">*</sup></label></td>
+                <td> 
+                <select name="district" id="dis"  required>
+                    <option value="sel">--Select--</option>
+                    <option value="hyd">Hyderabad</option>
+                    <option value="sec">Secunderabad</option>
+                    <option value="kphb">KPHB</option>
+                </select>
+                 </td>
+                 <td colspan="4"></td>
+                 <td colspan="4"></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 
+            </tr>
+            <tr>
+                <td><label for="pass">Pass Type<sup style="color: red;">*</sup></td>
+                <td>
+                <select name="pass" id="pass"  required>
+                    <option value="sel">--Select--</option>
+                    <option value="gen">General Pass</option>
+                    <option value="ord">Ordinary Pass</option>
+                    <option value="exp">Express Pass</option>
+                </select>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        </form>
+        </fieldset>
+        </center>
+    <br>   
+          <center>
+    <fieldset>
+        <legend style="font-size:21px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(108, 108, 245); border-radius:5px; color: white;">Mode of Payment & Pass Collection</legend>
+     <table border="0" cellpadding="5" cellspacing="0" width="80%" style="font-size: 19px;">
+    <form action="submit.html">
+            <tr>
+                <td><label for="pay">Payment Mode<sup style="color: red;">*</sup></label></td>
+                <td> 
+                <select name="payment" id="pay"  required>
+                    <option value="sel">Select Payment Mode</option>
+                    <option value="upi">BHIM/UPI</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="net">Net Banking</option>
+                </select>
+                 </td>
+                 <td colspan="4"></td>
+                 <td colspan="4"></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 
+            </tr>
+            <tr>
+                <td><label for="del">Pass Delivery Mode<sup style="color: red;">*</sup></td>
+                <td>
+                <select name="delivery" id="del"  required>
+                    <option value="sel">Select Pass Delivery Mode</option>
+                    <option value="counter">Counter</option>
+                    
+                </select>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+            </tr>
+            <tr>
+                <td><label for="center">Center at which you want to collect pass<sup style="color: red;">*</sup></label></td>
+                <td> 
+                <select name="center" id="center"  required>
+                    <option value="sel">Select Payment Mode</option>
+                    <option value="kphb">RTC KPBH</option>
+                    <option value="jntu">RTC JNTU</option>
+                    <option value="kphb">RTC Miyapur</option>
+                    <option value="sec">RTC Secunderabad</option>
+                </select>
+                 </td>
+                 <td colspan="4"></td>
+                 <td colspan="4"></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 
+            </tr>
+        </table>
+        </form>
+        </fieldset>
+        <br>
+        <img src="WhatsApp Image 2025-08-21 at 15.27.08_14068ccc.jpg" alt="" width="200"> <br>
+        <input type="text">
+        <br><br>
+       <a href="submit.html"><button style="font-size:20px;">Submit</button></a>  
+        
+        </center>  
+    
+</body>
+</html>
